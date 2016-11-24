@@ -40,7 +40,9 @@ int main(){
 		}
 		ch = getchar();
 	}
-	if(!i && !a && !b && !c)
+	if(!i && (a || b || c))
+		i++;
+	if(!i)
 		printf("yes");
 	else
 		printf("no");
