@@ -1,4 +1,3 @@
-//�ж�һ���ַ�������(��)��[��]��{��}�Ƿ�����Ҳ��ཻ��
 #include <stdio.h>
 
 int main(){
@@ -27,8 +26,8 @@ int main(){
 		ch = getchar();
 	}
 	if(!i)
-		printf("��");
+		printf("yes");
 	else
-		printf("��");
+		printf("no");
 	return 0;
 } 
