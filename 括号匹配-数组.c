@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(){
 	char ch, s[9999];
 	int i = 0, a = 0, b = 0, c = 0;
