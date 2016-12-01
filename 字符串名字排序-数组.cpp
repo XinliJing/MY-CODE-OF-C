@@ -4,10 +4,10 @@
 int main(){
 	int sum, flag;
 	char a[100][25], b[100];
-	printf("put the summary of number:");
+//	printf("put the summary of number:");
 	scanf("%d", &sum);
 	for(int i = 0; i < sum; i++){
-		printf("put the %d number:", i);
+//		printf("put the %d number:", i);
 		scanf("%s", a[i]);
 	}
 	for(int i = 0; i < sum-1; i++)
